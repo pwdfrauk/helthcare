@@ -1,0 +1,76 @@
+@media only screen and (max-width: 1200px) {
+	nav ul li a {
+		font-size: 1.4rem;
+	}
+	.tel-number {
+	line-height:3;
+	}
+	.tel-number i {
+	font-size: 1.5rem;
+	}
+
+	.tel-number span {
+	font-size: 1.5rem;
+	}
+} 
+@media only screen and (max-width: 992px) {
+	.my-logo img {
+    margin-top: 2%;
+	}
+	nav ul li a {
+		font-size: 1.2rem;
+	}
+	
+}
+@media only screen and (max-width: 768px) {
+	.main-minu {
+		display: none;
+	}
+	.mobile-menu .mobile-menu-icon{
+		display: block;
+	}
+	.tel-number {
+	border:1px solid #ddd;
+	border-radius: 5px;
+	}
+	.tel-number i {
+	font-size: 2rem;
+	}
+
+	.tel-number span {
+	font-size: 2rem;
+	}
+	.products-quentity .per-pill{
+    font-size: 2rem;
+    text-align: center;
+}
+	.product-images {
+    width: 80%;
+    margin: auto;
+}
+	.products-quentity .offer-text{ 
+		padding:6px 12px;
+		font-size: 1.8rem;
+	}
+	.products-des .select-pack-button {
+		margin: 5px auto;
+	}
+	footer .footer-menu-icon ul li a span{
+    font-size: 1.2rem;
+    
+}
+
+
+}
+@media only screen and (max-width: 576px) {
+		footer {
+    text-align: center;
+}
+	footer .social-icon ul {
+    justify-content: center;
+}
+footer .footer-img {
+  margin: 1rem 0rem;
+ }
+	
+}
