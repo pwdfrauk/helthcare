@@ -4,9 +4,14 @@
 }
 html {
 	 font-size: 62.5%;
+    font-family: 'Open Sans', sans-serif;
+}
+h1,h2, h3, h4, h5, h6 {
+    font-family: 'Barlow Condensed', sans-serif;
 }
 a {
 	text-decoration: none !important;
+    color:black !important;
 }
 img {
 	width: 100%;
@@ -37,7 +42,8 @@ nav ul li a {
 	text-transform: uppercase;
 	font-weight: 700;
 	padding:.5rem .7rem;
-	color:#fff;
+	color:#fff !important;
+    font-family: 'Barlow Condensed', sans-serif;
 }
 nav ul li a:hover {
 	background-color:#FEBD69;
@@ -115,6 +121,7 @@ header .col-md-3 {
     text-transform: uppercase;
     margin-top: 2rem;
     letter-spacing: 1px;
+    font-family: 'Barlow Condensed', sans-serif;
 }
 .overlay-content a:hover {
     color:#FEBD69;
@@ -135,14 +142,52 @@ header .col-md-3 {
 }
 /*************** product section ******************/
 .product-section {}
+.product-section .categoy-list{
+    background: #F0F0F0; 
+    padding: 10px 10px;
+    border-radius: 8px;
+    margin: 10px 5px;
+    font-weight: 300;
+    font-size: 3rem;
+}
+.product-section .product-page-title{
+    background: #F0F0F0; 
+    padding: 10px 10px;
+    border-radius: 8px;
+    margin: 10px 5px;
+    font-weight: 300;
+    font-size: 3rem;
+}
+
+.product-section .ct-list {
+    padding:10px 20px;
+}
+.product-section .ct-list ul{
+    list-style-type: none;
+}
+.product-section .ct-list ul li {
+    padding:5px 0px;
+}
+.product-section .ct-list ul li a {
+    font-size: 1.6rem;
+    color:black;
+}
+.product-section .ct-list ul li a i {
+    color:red;
+}
+.product-section .ct-list ul li a span{}
 .single-product-area {
     border:1px solid red;
     margin:15px 0px;
     padding:10px;
     border-radius: 10px;
 }
-.product-images {}
-.product-images img {}
+.product-images {
+    text-align: center;
+}
+.product-images img {
+    width: 92%;
+}
 .products-quentity {
    text-align: center;
 }
@@ -165,7 +210,8 @@ header .col-md-3 {
 }
 .products-des h2 {
     font-size: 2rem;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
 }
 .products-des .mg {
     font-size: 1.6rem;
@@ -213,7 +259,7 @@ footer .footer-menu ul li{
     list-style-type: none;
 }
 footer .footer-menu ul li a{
-    color:#fff;
+    color:#fff !important;
     font-size: 1.4rem;
 }
 footer .footer-menu-icon {}

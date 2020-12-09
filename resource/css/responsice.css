@@ -29,10 +29,6 @@
 	.mobile-menu .mobile-menu-icon{
 		display: block;
 	}
-	.tel-number {
-	border:1px solid #ddd;
-	border-radius: 5px;
-	}
 	.tel-number i {
 	font-size: 2rem;
 	}
@@ -72,5 +68,20 @@
 footer .footer-img {
   margin: 1rem 0rem;
  }
+ .product-images img {
+    width: 70%;
+}
+.main-caregories {
+	order:2;
+}
+.product-section .product-page-title {
+	text-align: center;
+}
+.product-section .categoy-list {
+	text-align: center;
+}
+.product-section .ct-list  {
+	padding-left:25%;
+}
 	
 }
