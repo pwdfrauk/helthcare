@@ -229,8 +229,9 @@ header .col-md-3 {
     background: #FF9326;
     padding:6px 5px;
 }
+/*this one is for shoping title color*/
 .products-des .shiping-title a {
-color:#000 !important;
+color:#000!important;
 }
 .products-des h2 {
     font-size: 2.8rem;
