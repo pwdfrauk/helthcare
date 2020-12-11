@@ -32,6 +32,9 @@ header .row {
 nav  {
 	line-height: 5rem;
 }
+nav ul {
+    text-align: center;
+}
 nav ul li {
 	display: inline;
 	list-style-type: none;
@@ -43,7 +46,7 @@ nav ul li a {
 	font-weight: 700;
 	padding:.5rem .7rem;
 	color:#fff !important;
-    font-family: 'Barlow Condensed', sans-serif;
+    
 }
 nav ul li a:hover {
 	background-color:#FEBD69;
@@ -142,6 +145,12 @@ header .col-md-3 {
 }
 /*************** product section ******************/
 .product-section {}
+.product-section .us .col-md-4{
+    padding:0px 15px;
+}
+.product-section .us .col-md-8 {
+    padding:0px 8px;
+}
 .product-section .categoy-list{
     background: #F0F0F0; 
     padding: 10px 10px;
@@ -192,10 +201,13 @@ header .col-md-3 {
    text-align: center;
 }
 .products-quentity .per-pill {
-    color:#54595F;
-    font-size: 1.5rem;
-    font-weight: 400;
-    margin-top:10px;
+    color: #54595F;
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.products-quentity .pkt {
+    font-size: 1.6rem ;
 }
 .products-quentity .offer-text{
     color:#E04C4B;
@@ -208,21 +220,43 @@ header .col-md-3 {
 .products-des {
     text-align: center;
 }
-.products-des h2 {
-    font-size: 2rem;
-    margin-bottom: 15px;
-    letter-spacing: 1px;
+.products-des .us-to-us
+ {
+    font-size: 2.2rem;
 }
+.products-des .shiping-title{
+    font-size:1.8rem;
+    background: #FF9326;
+    padding:6px 5px;
+}
+.products-des .shiping-title a {
+color:#fff !important;;
+}
+.products-des h2 {
+    font-size: 2.8rem;
+    margin-bottom: 15px;
+}
+
 .products-des .mg {
     font-size: 1.6rem;
+    margin: 28px 0px;
+}
+.products-des .us-to-us-mg {
+    margin:0px 0px;
+}
+.products-des .cenforce {
+    margin: 28px 0px
 }
 .products-des .gn-name {
     font-size: 1.6rem;
 }
+.products-des .ex-mg{
+    font-size: 1.5rem;
+}
 .products-des .select-pack-button {
     display: inline-block;
     background: #E04C4B;
-    color:#fff;
+    color:#fff !important;
     font-size: 1.6rem;
     padding:7px 15px;
     border-radius: 5px;
@@ -305,3 +339,4 @@ footer .social-icon ul li {
  footer .footer-img img{
     width: 70%;
  }
+ /*end style css here*/
